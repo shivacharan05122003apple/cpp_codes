@@ -7,15 +7,15 @@ int main(){
     cin>>savings;
 
     if(savings>5000){
-        if(savings>8000){
-            cout<<"roadtrip with neha";
+      if(savings>10000){
+         cout<<"road trip with neha";
         }
-        else{
-            cout<<"shopping with neha";
-        }
+      else{
+        cout<<"sleep with neha";
+      }
     }
-    
-    else if(savings>2000){
+    else{
+     if(savings>2000){
         cout<<"reshmi";
     }
 
@@ -23,4 +23,5 @@ int main(){
         cout<<"dost";
     }
 
+}
 }
